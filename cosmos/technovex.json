@@ -1,0 +1,52 @@
+{
+  "chainId": "technovex-1",
+  "chainName": "Technovex Testnet",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/technovex/chain.png",
+  "rpc": "https://rpc.technovexexplorer.com",
+  "rest": "https://api.technovexexplorer.com",
+  "nodeProvider": {
+    "name": "Technovex Foundation",
+    "email": "support@technovexexplorer.com",
+    "website": "https://technovexexplorer.com/"
+  },
+  "bip44": {
+    "coinType": 118
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "technovex",
+    "bech32PrefixAccPub": "technovexpub",
+    "bech32PrefixValAddr": "technovexvaloper",
+    "bech32PrefixValPub": "technovexvaloperpub",
+    "bech32PrefixConsAddr": "technovexvalcons",
+    "bech32PrefixConsPub": "technovexvalconspub"
+  },
+  "currencies": [
+    {
+      "coinDenom": "TVX",
+      "coinMinimalDenom": "utvx",
+      "coinDecimals": 6,
+      "coinGeckoId": "technovex"
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "TVX",
+      "coinMinimalDenom": "utvx",
+      "coinDecimals": 6,
+      "coinGeckoId": "technovex",
+      "gasPriceStep": {
+        "low": 0.01,
+        "average": 0.025,
+        "high": 0.03
+      }
+    }
+  ],
+  "stakeCurrency": {
+    "coinDenom": "TVX",
+    "coinMinimalDenom": "utvx",
+    "coinDecimals": 6,
+    "coinGeckoId": "technovex"
+  },
+  "features": ["cosmwasm"],
+  "isTestnet": true
+}

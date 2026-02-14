@@ -13,13 +13,13 @@
     "coinType": 118
   },
   "bech32Config": {
-    "bech32PrefixAccAddr": "technovex",
-    "bech32PrefixAccPub": "technovexpub",
-    "bech32PrefixValAddr": "technovexvaloper",
-    "bech32PrefixValPub": "technovexvaloperpub",
-    "bech32PrefixConsAddr": "technovexvalcons",
-    "bech32PrefixConsPub": "technovexvalconspub"
-  },
+  "bech32PrefixAccAddr": "cosmos",
+  "bech32PrefixAccPub": "cosmospub",
+  "bech32PrefixValAddr": "cosmosvaloper",
+  "bech32PrefixValPub": "cosmosvaloperpub",
+  "bech32PrefixConsAddr": "cosmosvalcons",
+  "bech32PrefixConsPub": "cosmosvalconspub"
+},
   "currencies": [
     {
       "coinDenom": "TVX",
